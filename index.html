@@ -1,46 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi Portafolio de Ciencia de Datos</title>
+  <title>Gerardo Huerta Escobar</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+    
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Arial', sans-serif;
       background-color: #000000;
+      color: #ffffff;
       margin: 0;
-      padding: 20px;
+      padding: 0;
     }
     
     .container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      color: #ffffff;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #1f1f1f;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      text-align: justify;
+    }
+    
+    .profile-image {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      max-width: 200px;
+      height: auto;
     }
     
     h1 {
-      color: #ffffff;
+      font-size: 32px;
       text-align: center;
+      margin-top: 20px;
+      font-family: 'Arial', sans-serif;
+      font-weight: bold;
     }
     
     p {
-      color: #ffffff;
       text-align: center;
+      margin-top: 20px;
+      font-family: 'Arial', sans-serif;
     }
     
     ul {
-      list-style-type: none;
       padding: 0;
+      margin-top: 20px;
     }
     
     li {
       margin-bottom: 20px;
     }
     
+    .project a {
+      color: #00aaff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .project a:hover {
+      color: #ff00ff;
+    }
+    
     .project-description {
       margin-top: 5px;
-      color: #cccccc;
+      color: #999999;
+      text-align: center;
     }
     
     .footer {
@@ -49,17 +77,13 @@
     }
     
     .footer a {
-      color: #ffffff;
+      color: #00aaff;
       text-decoration: none;
+      font-weight: bold;
     }
     
     .footer a:hover {
-      text-decoration: underline;
-    }
-    
-    .profile-image {
-      border-radius: 50%;
-      max-width: 300px;
+      color: #ff00ff;
     }
   </style>
 </head>
@@ -67,25 +91,25 @@
   <div class="container">
     <img class="profile-image" src="https://media.licdn.com/dms/image/D4E03AQFvYqzh6mBQkA/profile-displayphoto-shrink_800_800/0/1686172739629?e=1694649600&v=beta&t=V3SViJ-lDoQciPc_oVwa3Trxn-1QR33nd3OiqEJshec" alt="Imagen de presentación">
     
-    <h1>Mi Portafolio de Ciencia de Datos</h1>
+    <h1>Gerardo Huerta Escobar</h1>
     
-    <p>Bienvenidos a mi portafolio de ciencia de datos. Soy [tu nombre] y me especializo en [áreas de especialización]. A continuación, encontrarás algunos de mis proyectos:</p>
+    <p>Bienvenidos a mi portafolio de ciencia de datos. Soy Gerardo Huerta y me especializo en Ciencia de Datos. A continuación, encontrarás algunos de mis proyectos:</p>
     
     <ul>
-      <li>
-        <a href="enlace_a_tu_proyecto1_en_github">Proyecto 1</a>
-        <p class="project-description">Descripción del Proyecto 1.</p>
+      <li class="project">
+        <a href="https://github.com/Gerardo-Huerta-Esc/Investigacion_algoritmos_busqueda">Investigación: Algoritmos de búsqueda</a>
+        <p class="project-description">Este proyecto analiza el rendimiento de los algoritmos de búsqueda binaria y búsqueda secuencial en diferentes conjuntos de datos. Estos resultados pueden ser útiles para seleccionar el algoritmo de búsqueda más adecuado según el tamaño de los datos en la implementación de aplicaciones.</p>
       </li>
-      <li>
-        <a href="enlace_a_tu_proyecto2_en_github">Proyecto 2</a>
-        <p class="project-description">Descripción del Proyecto 2.</p>
+      <li class="project">
+        <a href="https://github.com/Gerardo-Huerta-Esc/Reconocimiento_defectos_MaskRCNN_I">Reconocimiento defectos MaskRCNN I</a>
+        <p class="project-description">Visión computacional para la detención de defectos topológicos en cristales líquidos usando Mask RCNN.</p>
       </li>
       <!-- Agrega más proyectos con sus descripciones y enlaces -->
     </ul>
     
     <div class="footer">
       <p>Encuéntrame en LinkedIn:</p>
-      <a href="enlace_a_tu_perfil_de_LinkedIn">Mi perfil de LinkedIn</a>
+      <a href="https://www.linkedin.com/in/gerardo-huerta/">Mi perfil de LinkedIn</a>
     </div>
   </div>
 </body>
